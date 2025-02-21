@@ -1,15 +1,15 @@
-"""Addition Plugin Operation"""
+"""Multplication Plugin Operation"""
 from decimal import Decimal
 from operation_base import Operation
 
-class Add(Operation):
+class Multiply(Operation):
     """Performs subtraction of two numbers."""
 
     @staticmethod
     def execute(a: Decimal, b: Decimal) -> Decimal:
         """Returns the difference of two numbers."""
-        Add.validate_numbers(a, b)
-        return a + b
+        Multiply.validate_numbers(a, b)
+        return a - b
 
     @classmethod
     def validate_numbers(cls, a: Decimal, b: Decimal) -> None:
