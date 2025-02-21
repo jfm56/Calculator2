@@ -3,13 +3,13 @@ from decimal import Decimal
 from operation_base import Operation
 
 class Multiply(Operation):
-    """Performs subtraction of two numbers."""
+    """Performs multiplication of two numbers."""
 
     @staticmethod
     def execute(a: Decimal, b: Decimal) -> Decimal:
-        """Returns the difference of two numbers."""
+        """Returns the product of two numbers."""
         Multiply.validate_numbers(a, b)
-        return a - b
+        return a * b
 
     @classmethod
     def validate_numbers(cls, a: Decimal, b: Decimal) -> None:
