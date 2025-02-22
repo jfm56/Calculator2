@@ -9,7 +9,7 @@ def show_menu():
     menu_options = {
         "1": lambda: print("\nAvailable Operations:\n" + "\n".join(f"  - {op}" for op in sorted(Operation.registry.keys()))),
         "2": lambda: print("\nCalculation History:\n" + History.get_history()),
-        "3": lambda: print("\nLast Calculation:\n" + History.get_last()),
+        "3": lambda: print("\nLast Calculation:\n" + History.get_last_entry()),
         "4": lambda: (History.clear_history(), print("\nHistory cleared successfully.")),
         "5": lambda: print("\nExiting menu..."),
     }

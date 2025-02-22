@@ -1,26 +1,24 @@
-"""Manages calculation history"""
-from decimal import Decimal
-
 class History:
-    """Handles storing and retriecing past calculations"""
+    """Maintains the history of calculations performed."""
+    
     _history = []
 
     @classmethod
-    def add_entry(cls, operation, a: Decimal, b: Decimal, result):
-        """Stores a calculation entry in history"""
-        entry = f"{a} {operation} {b} = result"
+    def add_entry(cls, operation, a, b, result):
+        """Adds a calculation entry to history."""
+        cls._history.append(f"{operation} {a} {b} = {result}")
 
     @classmethod
-    def get_last(cls)-> str:
-        """retrieves last calculation"""
-        return cls._history[-1] if cls._history else "No history available"
-    
+    def get_history(cls):
+        """Returns the calculation history as a string."""
+        return "\n".join(cls._history) if cls._history else "No calculations yet."
+
+    @classmethod
+    def get_last_entry(cls):
+        """Returns the last calculation performed."""
+        return cls._history[-1] if cls._history else "No history available."
+
     @classmethod
     def clear_history(cls):
-        """CLears the calculation history."""
-        cls._history = []
-
-    @classmethod
-    def get_history()-> str:
-        """Return the entire calculation history."""
-        return "\n".join(History._history)if History._history else "No calculations recorded."
+        """Clears all stored history."""
+        cls._history.clear()
