@@ -4,14 +4,15 @@ init-hook='import sys; sys.path.append(".")'
 extension-pkg-whitelist=pydantic
 load-plugins=pylint_django
 
-[MESSAGES CONTROL]
-# Only show these errors
-# Disable the following checks (example list):
-disable= unused-argument,
-         line-too-long,
-         redefined-outer-name
-         unnecessary-dunder-call, invalid-name
-         no-member, unnecessary-dunder-call, invalid-name
+[MESSAGE CONTROL]
+disable=unused-argument,
+        line-too-long,
+        redefined-outer-name,
+        unnecessary-dunder-call,
+        invalid-name,
+        no-member,
+        wrong-import-position,
+        wrong-import-order
 
 [REPORTS]
 # Set the output format. Available formats: text, parseable, colorized, json, msvs (visual studio) and html

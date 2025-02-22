@@ -29,16 +29,16 @@ import operations
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Track loaded modules to prevent duplicated imports
+# Track loaded modules to prevent duplicate imports
 _loaded_plugins = set()
 
 def load_plugins():
     """Dynamically loads all operation plugins from the 'operations' package."""
     package = operations
 
-    for _, module_name, is_pkg in pkgutil.iter_modules(operations.__path__, operations.__name__ + "."):
-        if not is_pkg: # Ensure its not a package, just a module
-            importlib.import_module(module_name)
+    for _, module_name, _ in pkgutil.iter_modules(package.__path__, package.__name__ + "."):
+        if module_name in _loaded_plugins:
+            logger.debug("Skipping already loaded plugin: %s", module_name)
             continue
 
         try:

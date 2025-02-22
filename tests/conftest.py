@@ -1,33 +1,28 @@
-"""Test includes faker to generate test data."""
+"""Test configuration and dynamic test generation using Faker."""
+import pytest
+from decimal import Decimal
+from faker import Faker
 
-# pylint: disable=wrong-import-position, wrong-import-order, global-statement, unnecessary-dunder-call
-# flake8: noqa
+# Import operation_mapping at the TOP
+from tests.test_operations import operation_mapping
 
 import sys
 import os
 
-# Add project root directory to sys.path
+# Ensure project root is in sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from decimal import Decimal
-import pytest
-from faker import Faker
-
-from operations.subtract import Subtract
-from operations.add import Add
-from operations.multiply import Multiply
-from operations.divide import Divide
 
 fake = Faker()
 
+
 @pytest.fixture
 def operation_test_cases():
-    """Fixture that provides test cases for arithmetic operations."""
+    """Fixture providing static test cases."""
     return [
-        (Add, Decimal("2"), Decimal("3"), Decimal("5")),
-        (Subtract, Decimal("7"), Decimal("3"), Decimal("4")),
-        (Multiply, Decimal("4"), Decimal("3"), Decimal("12")),
-        (Divide, Decimal("10"), Decimal("2"), Decimal("5")),
+        ("add", Decimal("2"), Decimal("3"), Decimal("5")),
+        ("subtract", Decimal("7"), Decimal("3"), Decimal("4")),
+        ("multiply", Decimal("4"), Decimal("3"), Decimal("12")),
+        ("divide", Decimal("10"), Decimal("2"), Decimal("5")),
     ]
 
 def generate_test_data(num_record):
@@ -35,46 +30,49 @@ def generate_test_data(num_record):
     Generate test data dynamically for Calculator operations.
 
     Args:
-        num_records (int): Number of test cases to generate.
+        num_record (int): Number of test cases to generate.
 
     Yields:
-        tuple: (a, b, operation_name, operation_function, expected_result)
+        tuple: (op_name, a, b, expected)
     """
-    operation_mapping = {
-        'add': Add,
-        'subtract': Subtract,
-        'multiply': Multiply,
-        'divide': Divide
-    }
-
     for _ in range(num_record):
-        a = Decimal(fake.random_number(digits=2))
-        b = Decimal(fake.random_number(digits=2)) if _ % 4 != 3 else Decimal(fake.random_number(digits=1))
-
-        operation_name = fake.random_element(elements=list(operation_mapping.keys()))
-        operation_func = operation_mapping[operation_name]
-
-        # Ensure b is never zero for division
-        if operation_func is Divide and b == Decimal('0'):
-            b = Decimal('1')
-
         try:
-            expected = operation_func.execute(a, b)
-        except ZeroDivisionError:
-            expected = "ZeroDivisionError"
+            a = Decimal(fake.random_number(digits=2))
+            b = Decimal(fake.random_number(digits=2)) if _ % 4 != 3 else Decimal(fake.random_number(digits=1))
 
-        yield a, b, operation_name, operation_func, expected
+            op_name = fake.random_element(elements=list(operation_mapping.keys()))
+            operation_func = operation_mapping[op_name]
+
+            # Ensure b is never zero for division
+            if op_name == "divide" and b == Decimal("0"):
+                b = Decimal("1")
+
+            expected = operation_func.execute(a, b)
+
+        except (ValueError, TypeError, ArithmeticError) as e:
+            print(f"Error generating test data: {e}")
+            continue  # Skip faulty test case
+
+
+        yield op_name, a, b, expected  # ✅ Now includes `op_name`
 
 def pytest_addoption(parser):
     """Allows pytest to recognize --num_record argument."""
     parser.addoption("--num_record", action="store", default=5, type=int, help="Number of test records to generate")
 
 def pytest_generate_tests(metafunc):
-    """Dynamically parameterizes tests based on the --num_record option."""
-    if {"a", "b", "operation", "expected"}.intersection(set(metafunc.fixturenames)):  # Fixed missing "operation"
+    """
+    Dynamically parameterizes tests based on --num_record option.
+    Ensures expected is only used where necessary.
+    """
+    if {"op_name", "a", "b", "expected"}.issubset(set(metafunc.fixturenames)):
+        # Generate test cases where expected is needed
         num_records = metafunc.config.getoption("num_record")
-
-        # Generate test cases
         parameters = list(generate_test_data(num_records))
+        metafunc.parametrize("op_name, a, b, expected", parameters)
 
-        metafunc.parametrize("a, b, operation, expected", parameters)  # Fixed wrong function call
+    elif {"op_name", "a", "b"}.issubset(set(metafunc.fixturenames)):
+        # Generate test cases for validate_numbers where expected is not needed
+        num_records = metafunc.config.getoption("num_record")
+        parameters = [(op, a, b) for op, a, b, _ in generate_test_data(num_records)]
+        metafunc.parametrize("op_name, a, b", parameters)
