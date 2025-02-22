@@ -2,26 +2,21 @@
 from decimal import Decimal
 from operation_base import Operation
 
-class Subtraction(Operation):
+class Subtract(Operation):
     """Performs subtraction of two numbers."""
 
     @staticmethod
     def execute(a: Decimal, b: Decimal) -> Decimal:
         """Returns the difference of two numbers."""
-        Subtraction.validate_numbers(a, b)
+        Subtract.validate_numbers(a, b)
         return a - b
 
     @classmethod
-    def validate_numbers(cls, a: Decimal, b: Decimal) -> None:
-        """Validates that both inputs are numbers and converts them to Decimal if needed."""
-        if not isinstance(a, Decimal):
-            try:
-                a = Decimal(a)
-            except Exception as exc:
-                raise TypeError(f"Invalid type for 'a': {type(a).__name__}, expected Decimal-compatible.") from exc
-
-        if not isinstance(b, Decimal):
-            try:
-                b = Decimal(b)
-            except Exception as exc:
-                raise TypeError(f"Invalid type for 'b': {type(b).__name__}, expected Decimal-compatible.") from exc
+    def validate_numbers(cls, a, b) -> None:
+        """Validates that both inputs are Decimal-compatible."""
+        for var, var_name in [(a, "a"), (b, "b")]:
+            if not isinstance(var, Decimal):
+                try:
+                    Decimal(var)
+                except Exception as exc:
+                    raise TypeError(f"Invalid type for '{var_name}': {type(var).__name__}, expected Decimal-compatible.") from exc

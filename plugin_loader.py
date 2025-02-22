@@ -36,8 +36,9 @@ def load_plugins():
     """Dynamically loads all operation plugins from the 'operations' package."""
     package = operations
 
-    for _, module_name, in pkgutil.iter_modules(package.__path__, package.__name__ + "."):
-        if module_name in _loaded_plugins:
+    for _, module_name, is_pkg in pkgutil.iter_modules(operations.__path__, operations.__name__ + "."):
+        if not is_pkg: # Ensure its not a package, just a module
+            importlib.import_module(module_name)
             continue
 
         try:
