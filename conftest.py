@@ -55,11 +55,8 @@ def generate_test_data(num_record):
 
 
 def pytest_addoption(parser):
-    """Allows pytest to recognize --num_record argument."""
-    parser.addoption(
-        "--num_record", action="store", default=5, type=int, help="Number of test records to generate"
-    )
-
+    """Allows pytest to recognize `--num_record` with a default of 5, but override it dynamically."""
+    parser.addoption("--num_record", action="store", default=5, type=int, help="Number of test records to generate")
 
 def pytest_generate_tests(metafunc):
     """Dynamically parameterizes tests based on --num_record option."""
