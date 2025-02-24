@@ -1,6 +1,7 @@
+"""Contains calculator operations for history."""
 class History:
     """Maintains the history of calculations performed."""
-    
+
     _history = []
 
     @classmethod

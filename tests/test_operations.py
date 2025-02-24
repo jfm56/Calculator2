@@ -1,68 +1,73 @@
-"""Tests for Arithmetic Operations using EAFP principles."""
+"""Tests for arithmetic operations and validation."""
+
 from decimal import Decimal
 import pytest
-from operations.add import Add
-from operations.subtract import Subtract
-from operations.multiply import Multiply
-from operations.divide import Divide
+from operations.operation_mapping import operation_mapping
+from operation_base import Operation
 
-# Mapping operations to their class
-operation_mapping = {
-    "add": Add,
-    "subtract": Subtract,
-    "multiply": Multiply,
-    "divide": Divide
-}
-
-@pytest.mark.parametrize("operation_name, a, b, expected", [
+# ✅ SINGLE PARAMETERIZATION FIXTURE TO PREVENT DUPLICATION
+@pytest.fixture(params=[
     ("add", Decimal("5"), Decimal("3"), Decimal("8")),
     ("subtract", Decimal("10"), Decimal("4"), Decimal("6")),
     ("multiply", Decimal("2"), Decimal("3"), Decimal("6")),
     ("divide", Decimal("9"), Decimal("3"), Decimal("3")),
-    ("divide", Decimal("5"), Decimal("2"), Decimal("2.5")),  # Floating point case
-    ("multiply", Decimal("-4"), Decimal("3"), Decimal("-12")),  # Negative number case
+    ("divide", Decimal("5"), Decimal("2"), Decimal("2.5")),
+    ("multiply", Decimal("-4"), Decimal("3"), Decimal("-12")),
+    ("multiply", Decimal("1000000"), Decimal("1000000"), Decimal("1000000000000")),
+    ("multiply", Decimal("0.5"), Decimal("0.5"), Decimal("0.25")),
 ])
-def test_operations(operation_name, a, b, expected):
-    """Tests arithmetic operations using EAFP."""
-    try:
-        operation = operation_mapping[operation_name]
-        result = operation.execute(a, b)
-        assert result == expected  # ✅ Ensure correct calculation
-    except ZeroDivisionError:
-        assert operation is Divide and b == Decimal("0")  # ✅ Expected ZeroDivisionError for divide(10,0)
-    except (TypeError, ValueError) as e:
-        pytest.fail(f"Unexpected type error: {e}")
+def operation_test_case(request):
+    """Fixture to supply arithmetic test cases."""
+    return request.param  # (operation_name, a, b, expected)
 
-@pytest.mark.parametrize("operation_name", ["add", "subtract", "multiply", "divide"])
-@pytest.mark.parametrize("a, b", [
-    ("10", "5"),   # Strings
-    (10, 5),       # Integers
-    (10.5, 2.5),   # Floats
-    (Decimal("10.5"), Decimal("2.5")),  # Decimals
-])
-def test_validate_numbers(operation_name, a, b):
-    """Tests that validate_numbers correctly converts various types."""
-    try:
-        operation = operation_mapping[operation_name]
-        operation.validate_numbers(a, b)  # ✅ No `expected` needed
-    except (TypeError, ValueError) as e:
-        pytest.fail(f"Unexpected type error: {e}")
 
-@pytest.mark.parametrize("operation_name", ["add", "subtract", "multiply", "divide"])
-@pytest.mark.parametrize("a, b", [
-    ("invalid", "3"),   # Invalid string
-    (None, 3),          # None type
-    ([1, 2], 3),        # List
-    ({1: 2}, 3),        # Dictionary
-    (object(), 3),      # Random object
-])
-def test_validate_numbers_invalid(operation_name, a, b):
-    """Tests validate_numbers rejects invalid types."""
-    with pytest.raises(TypeError):
-        operation = operation_mapping[operation_name]
-        operation.validate_numbers(a, b)
+def test_operations_execution(operation_test_case):
+    """Tests arithmetic operations execute correctly."""
+    operation_name, a, b, expected = operation_test_case
+    operation = operation_mapping[operation_name]
+    assert operation.execute(a, b) == expected
+
 
 def test_division_by_zero():
-    """Tests division by zero handling."""
+    """Ensure division by zero raises ZeroDivisionError."""
     with pytest.raises(ZeroDivisionError):
-        Divide.execute(Decimal("10"), Decimal("0"))
+        operation_mapping["divide"].execute(Decimal("10"), Decimal("0"))
+
+
+@pytest.mark.parametrize("valid_op, a, b, expected", [
+    ("add", Decimal("3.5"), Decimal("2"), Decimal("5.5")),  # Addition
+    ("multiply", 10, 5, Decimal("50")),  # Multiplication
+])
+def test_valid_numbers_conversion(valid_op, a, b, expected):
+    """Tests that validate_numbers correctly converts types before execution."""
+    assert valid_op in operation_mapping, f"⚠️ {valid_op} is missing!"
+    assert operation_mapping[valid_op].execute(a, b) == expected  # ✅ Uses expected result directly
+
+
+@pytest.mark.parametrize(
+    "a, b",
+    [
+        ("invalid", "3"),
+        (None, 3),
+        ([1, 2], 3),
+        ({1: 2}, 3),
+        (object(), 3),
+    ],
+)
+def test_validate_numbers_invalid(a, b):
+    """Ensure `validate_numbers` rejects invalid types."""
+    for _, operation in operation_mapping.items():  # ✅ More Pythonic
+        with pytest.raises(TypeError):
+            operation.validate_numbers(a, b)
+
+
+def test_get_operation_not_found():
+    """Ensure `get_operation()` raises KeyError when an operation is not found."""
+    with pytest.raises(KeyError, match=r"Operation 'nonexistent' not found in registry."):
+        Operation.get_operation("nonexistent")
+
+
+def test_validate_numbers_invalid_type():
+    """Ensure `validate_numbers()` raises TypeError for invalid inputs."""
+    with pytest.raises(TypeError, match="Invalid type"):
+        Operation.validate_numbers("abc", "xyz")

@@ -5,7 +5,7 @@ from history import History
 
 def show_menu():
     """Displays an interactive calculator menu."""
-    
+
     menu_options = {
         "1": lambda: print("\nAvailable Operations:\n" + "\n".join(f"  - {op}" for op in sorted(Operation.registry.keys()))),
         "2": lambda: print("\nCalculation History:\n" + History.get_history()),

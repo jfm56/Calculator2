@@ -4,6 +4,9 @@ import plugin_loader
 from history import History
 from menu import show_menu
 from decimal import Decimal, InvalidOperation
+import sys
+
+plugin_loader.load_plugins()
 
 class CalculatorREPL:
     """Command-line Read-Eval-Print Loop (REPL) for the calculator."""
@@ -42,8 +45,8 @@ class CalculatorREPL:
             "history": lambda: print("\n".join(History.get_history())),
             "last": lambda: print(History.get_last_entry()),
             "clear": lambda: (History.clear_history(), print("History cleared.")),
-            "exit": lambda: exit("Exiting calculator. Goodbye!"),
-            "quit": lambda: exit("Exiting calculator. Goodbye!"),
+            "exit": lambda: sys.exit("Exiting calculator. Goodbye!"),
+            "quit": lambda: sys.exit("Exiting calculator. Goodbye!"),
         }
 
         while True:
