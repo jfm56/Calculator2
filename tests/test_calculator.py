@@ -62,7 +62,7 @@ def test_run_operation_divide_by_zero():
 def test_repl_menu_command():
     """Tests that the 'menu' command is executed correctly."""
     with patch("builtins.input", side_effect=["menu", "5", "exit"]), patch("builtins.print") as mock_print:
-        CalculatorREPL.repl()  # ✅ No `pytest.raises(SystemExit)`, REPL should continue
+        CalculatorREPL.repl()
 
     mock_print.assert_any_call("\n== Welcome to REPL Calculator ==")
 
@@ -74,27 +74,24 @@ def test_repl_history_command():
     with patch("builtins.input", side_effect=["menu", "2", "5", "exit"]), patch("builtins.print") as mock_print:
         CalculatorREPL.repl()
 
-    # Capture printed output
     printed_output = [call.args[0] for call in mock_print.call_args_list]
 
-    # ✅ Fixed: Assert correct format with "="
     assert any("add 2 3 = 5" in line for line in printed_output), "Expected history output missing"
 
 
 def test_repl_last_command():
     """Tests that the 'last' command displays last calculation."""
-    History.add_entry("multiply", 4, 5, 20)  # ✅ Fixed: Added result
+    History.add_entry("multiply", 4, 5, 20)
 
     with patch("builtins.input", side_effect=["last", "exit"]), patch("builtins.print") as mock_print:
         CalculatorREPL.repl()
 
-    # ✅ Fixed: Match exact format
     mock_print.assert_any_call("multiply 4 5 = 20")
 
 
 def test_repl_clear_command():
     """Tests that the 'clear' command clears history."""
-    History.add_entry("subtract", 8, 3, 5)  # ✅ Fixed: Added result
+    History.add_entry("subtract", 8, 3, 5)
 
     with patch("builtins.input", side_effect=["clear", "exit"]), patch("builtins.print") as mock_print:
         CalculatorREPL.repl()
@@ -133,7 +130,6 @@ def test_repl_unexpected_error():
 
         CalculatorREPL.repl()
 
-    # Ensure the unexpected error message was printed
     mock_print.assert_any_call("Unexpected error: Unexpected failure")
 
 def test_main_entrypoint():
@@ -141,7 +137,7 @@ def test_main_entrypoint():
 
     with subprocess.Popen(
         [sys.executable, "calculator.py"],
-        stdin=subprocess.PIPE,  # ✅ Allows sending input to REPL
+        stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True

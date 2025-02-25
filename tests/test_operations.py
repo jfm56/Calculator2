@@ -31,7 +31,7 @@ def test_operation_mapping():
 ])
 def operation_test_case(request):
     """Fixture to supply arithmetic test cases."""
-    return request.param  # (operation_name, a, b, expected)
+    return request.param
 
 def test_operations_execution(operation_test_case):
     """Tests arithmetic operations execute correctly."""
@@ -47,13 +47,13 @@ def test_division_by_zero():
         operation_mapping["divide"]().execute(Decimal("10"), Decimal("0"))
 
 @pytest.mark.parametrize("valid_op, a, b, expected", [
-    ("add", Decimal("3.5"), Decimal("2"), Decimal("5.5")),  # Addition
-    ("multiply", 10, 5, Decimal("50")),  # Multiplication
+    ("add", Decimal("3.5"), Decimal("2"), Decimal("5.5")),
+    ("multiply", 10, 5, Decimal("50")),
 ])
 def test_valid_numbers_conversion(valid_op, a, b, expected):
     """Tests that validate_numbers correctly converts types before execution."""
     assert valid_op in operation_mapping, f"⚠️ {valid_op} is missing!"
-    assert operation_mapping[valid_op]().execute(a, b) == expected  # ✅ Uses expected result directly
+    assert operation_mapping[valid_op]().execute(a, b) == expected
 
 @pytest.mark.parametrize("a, b", [
     ("invalid", "3"),
@@ -64,7 +64,7 @@ def test_valid_numbers_conversion(valid_op, a, b, expected):
 ])
 def test_validate_numbers_invalid(a, b):
     """Ensure `validate_numbers` rejects invalid types."""
-    for operation in operation_mapping.values():  # ✅ Now correctly using dictionary values
+    for operation in operation_mapping.values():
         with pytest.raises(TypeError):
             operation().validate_numbers(a, b)
 

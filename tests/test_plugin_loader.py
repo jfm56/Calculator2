@@ -31,9 +31,8 @@ def test_load_plugins_success(caplog):
 
 def test_main_called_on_script_execution():
     """Ensure `load_plugins()` is called when script runs as __main__."""
-    # Mock import_module to prevent actual plugin loading during test execution
+
     with patch("importlib.import_module") as mock_import_module:
         runpy.run_path(plugin_loader.__file__, run_name="__main__")
 
-    # Check if import_module was called, proving load_plugins() executed
     assert mock_import_module.called, "⚠️ load_plugins() was never called!"

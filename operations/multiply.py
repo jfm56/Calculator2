@@ -8,7 +8,7 @@ class Multiply(Operation):
     @staticmethod
     def execute(a, b):
         """Returns the product of two numbers."""
-        a, b = Multiply.validate_numbers(a, b)  # ✅ Ensure conversion before multiplication
+        a, b = Multiply.validate_numbers(a, b)
         return a * b
 
     @classmethod

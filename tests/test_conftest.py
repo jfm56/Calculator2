@@ -31,7 +31,7 @@ def test_pytest_generate_tests():
     metafunc.parametrize.assert_called_once()
     args, _ = metafunc.parametrize.call_args
     assert args[0] == "operation_name,a,b,expected"
-    assert len(args[1]) == 1  # Exactly one test case generated
+    assert len(args[1]) == 1
 
 def test_generate_test_data():
     """Validate generated test data."""

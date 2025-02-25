@@ -26,6 +26,6 @@ class Add(Operation):
         for var, var_name in [(a, "a"), (b, "b")]:
             if not isinstance(var, Decimal):
                 try:
-                    Decimal(var)  # Try conversion, but do not modify the input
+                    Decimal(var)
                 except Exception as exc:
                     raise TypeError(f"Invalid type for '{var_name}': {type(var).__name__}, expected Decimal-compatible.") from exc
