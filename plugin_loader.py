@@ -27,6 +27,8 @@ def load_plugins():
         except ImportError as e:
             logger.error("Failed to import %s: %s", module_name, e)
 
-# ✅ Call `load_plugins()` only when running this script, not on import
-if __name__ == "__main__":
+def main():
     load_plugins()
+
+if __name__ == "__main__":
+    main()

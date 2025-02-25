@@ -1,30 +1,29 @@
-"""Test configuration and dynamic test generation using Faker."""
-from plugin_loader import load_plugins
-load_plugins()  # ✅ Ensure plugins are loaded before tests
-
 import warnings
 import pytest
 from decimal import Decimal, InvalidOperation
 from faker import Faker
 import sys
 import os
+from plugin_loader import load_plugins
 from operation_base import Operation
 from operations.operation_mapping import operation_mapping
 
+# ✅ Load operation plugins
+load_plugins()
+
+# ✅ Faker instance for dynamic test data
+fake = Faker()
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
-fake = Faker()
-
 @pytest.fixture(scope="function", autouse=True)
 def reset_operation_registry():
-    """Ensures `Operation.registry` is cleared before each test."""
+    """Clear `Operation.registry` before each test."""
     Operation.registry.clear()
-
 
 @pytest.fixture
 def operation_test_cases():
-    """Fixture providing static test cases."""
+    """Static arithmetic operation test cases."""
     return [
         ("add", Decimal("2"), Decimal("3"), Decimal("5")),
         ("subtract", Decimal("7"), Decimal("3"), Decimal("4")),
@@ -32,56 +31,51 @@ def operation_test_cases():
         ("divide", Decimal("10"), Decimal("2"), Decimal("5")),
     ]
 
-
 def generate_test_data(num_record):
-    """Generate test data dynamically for Calculator operations."""
+    """Dynamically generate test data for operations."""
     for _ in range(num_record):
         try:
             a = Decimal(fake.random_number(digits=2))
             b = Decimal(fake.random_number(digits=2))
-
             op_name = fake.random_element(elements=list(operation_mapping.keys()))
             operation_func = operation_mapping[op_name]
 
             if op_name == "divide":
-                b = b if b != 0 else Decimal("1")
+                b = b if b != 0 else Decimal("1")  # ✅ Avoid division by zero
 
             expected = operation_func.execute(a, b)
 
-        except (ValueError, TypeError, InvalidOperation) as e:
-            continue  # ✅ Skip faulty test cases
+        except (ValueError, TypeError, InvalidOperation):
+            continue  # ✅ Skip problematic test cases
 
         yield op_name, a, b, expected
 
-
 def pytest_addoption(parser):
-    """Allows pytest to recognize `--num_record` with a default of 5, but override it dynamically."""
-    parser.addoption("--num_record", action="store", default=5, type=int, help="Number of test records to generate")
+    """Add custom CLI option `--num_record`."""
+    parser.addoption(
+        "--num_record",
+        action="store",
+        default=5,
+        type=int,
+        help="Number of test records to generate"
+    )
 
 def pytest_generate_tests(metafunc):
-    """Dynamically parameterizes tests based on --num_record option."""
+    """Dynamic test parametrization based on CLI option (EAFP style)."""
     num_records = metafunc.config.getoption("num_record")
     parameters = list(generate_test_data(num_records))
 
-    param_map = {
-        ("operation_name", "a", "b", "expected"): parameters,
-        ("operation_name", "a", "b"): [(op, a, b) for op, a, b, _ in parameters],
-    }
+    try:
+        keys, values = next(
+            (keys, [(op, a, b, exp) if "expected" in keys else (op, a, b)
+                    for op, a, b, exp in parameters])
+            for keys in [("operation_name", "a", "b", "expected"), ("operation_name", "a", "b")]
+            if set(keys).issubset(metafunc.fixturenames)
+        )
+        metafunc.parametrize(",".join(keys), values)
 
-    # ✅ Only apply parameterization if all required fixtures are available
-    matched_param = next(
-        ((keys, values) for keys, values in param_map.items() if set(keys).issubset(metafunc.fixturenames)),
-        None
-    )
-
-    if matched_param:
-        keys, values = matched_param
-        metafunc.parametrize(",".join(keys), values)  # ✅ Correct argument structure
-    elif metafunc.fixturenames:
-        # ✅ Only warn if it's an actual missing fixture issue
-        missing_fixtures = [f for f in metafunc.fixturenames if f not in param_map]
-        if missing_fixtures:
-            warnings.warn(
-                f"⚠️ Skipping test case generation: Missing required fixtures {missing_fixtures}",
-                UserWarning,
-            )
+    except StopIteration:
+        warnings.warn(
+            f"⚠️ Skipping test case generation: Missing fixtures {metafunc.fixturenames}",
+            UserWarning,
+        )

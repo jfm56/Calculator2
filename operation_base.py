@@ -12,10 +12,10 @@ class Operation(ABC):
         """Automatically registers subclasses in the operation registry."""
         super().__init_subclass__(**kwargs)
         operation_name = cls.__name__.lower()
-
-        if operation_name in cls.registry:
-            raise ValueError(f"Operation '{operation_name}' is already registered.")
-        cls.registry[operation_name] = cls  # ✅ Store operation in registry
+        try:
+            cls.register_operation(operation_name, cls)
+        except ValueError as e:
+            raise ValueError(f"Operation '{operation_name}' is already registered.") from e
 
     @classmethod
     @abstractmethod
@@ -24,23 +24,23 @@ class Operation(ABC):
 
     @classmethod
     def validate_numbers(cls, a, b):
-        """Ensures input values are Decimal-compatible."""
+        """Ensures input values are Decimal-compatible using EAFP."""
         try:
-            a, b = Decimal(a), Decimal(b)
+            return Decimal(a), Decimal(b)
         except Exception as exc:
             raise TypeError(f"Invalid type: {type(a).__name__} or {type(b).__name__}") from exc
 
     @classmethod
     def get_operation(cls, name: str) -> Type["Operation"]:
-        """Retrieve a registered operation class by name."""
-        operation = cls.registry.get(name.lower())
-        if operation is None:
-            raise KeyError(f"Operation '{name}' not found in registry.")
-        return operation
+        """Retrieve a registered operation class by name using EAFP."""
+        try:
+            return cls.registry[name.lower()]
+        except KeyError as exc:
+            raise KeyError(f"Operation '{name}' not found in registry.") from exc
 
     @classmethod
     def register_operation(cls, name: str, operation_class: Type["Operation"]):
-        """Registers an operation, preventing duplicates."""
+        """Registers an operation, preventing duplicates using EAFP."""
         name = name.lower()
         if name in cls.registry:
             raise ValueError(f"Operation '{name}' is already registered.")
