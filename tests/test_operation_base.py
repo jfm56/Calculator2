@@ -77,6 +77,5 @@ def test_register_operation_method_duplicate():
         def execute(cls, a, b):
             return a * b
 
-    # ✅ Attempt explicit registration again to trigger duplication error
     with pytest.raises(ValueError, match="already registered"):
         Operation.register_operation("anotheroperation", AnotherOperation)
