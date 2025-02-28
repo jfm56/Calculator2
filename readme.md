@@ -23,7 +23,7 @@ Built with Python 3.13+, the calculator leverages plugins for operations, pytest
 Ensure Python 3.13+ is installed. Then, clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/Calculator2.git
+git clone https://github.com/jfm56/Calculator2.git
 cd Calculator2
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
