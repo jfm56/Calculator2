@@ -35,4 +35,4 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest --num_records=100 --cov=your_package --cov-report=term-missing
+        pytest --num_record=100 --cov=your_package --cov-report=term-missing
