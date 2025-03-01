@@ -1,0 +1,1140 @@
+2025-02-28 20:34:29,332 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:34:29,332 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:34:29,332 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:34:29,332 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:34:29,332 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:34:29,332 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:34:29,332 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:34:29,332 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:34:29,332 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:34:29,332 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:34:29,403 - INFO - Calculator started
+2025-02-28 20:34:29,403 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:34:29,403 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:34:29,403 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:34:29,403 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:34:29,403 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:34:31,915 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:34:31,915 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:34:31,915 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:34:31,915 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:34:31,915 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:34:31,916 - INFO - Calculator started
+2025-02-28 20:34:31,916 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:34:31,916 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:34:31,916 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:34:31,916 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:34:31,916 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:34:31,938 - DEBUG - Test debug message
+2025-02-28 20:34:31,939 - INFO - Test info message
+2025-02-28 20:34:31,939 - ERROR - Test error message
+2025-02-28 20:34:31,969 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:34:31,970 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:34:31,970 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:34:31,970 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:34:31,970 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:34:31,970 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:34:31,971 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:34:31,971 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:34:31,972 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:34:31,972 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:34:31,973 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:34:31,973 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 20:36:34,056 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:36:34,056 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:36:34,056 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:36:34,056 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:36:34,056 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:36:34,057 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:36:34,057 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:36:34,057 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:36:34,057 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:36:34,057 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:36:34,128 - INFO - Calculator started
+2025-02-28 20:36:34,128 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:36:34,128 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:36:34,129 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:36:34,129 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:36:34,129 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:36:36,657 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:36:36,657 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:36:36,657 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:36:36,657 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:36:36,657 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:36:36,657 - INFO - Calculator started
+2025-02-28 20:36:36,657 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:36:36,657 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:36:36,657 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:36:36,657 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:36:36,657 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:36:36,680 - DEBUG - Test debug message
+2025-02-28 20:36:36,681 - INFO - Test info message
+2025-02-28 20:36:36,681 - ERROR - Test error message
+2025-02-28 20:36:36,704 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:36:36,705 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:36:36,706 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:36:36,706 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:36:36,706 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:36:36,706 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:36:36,706 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:36:36,707 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:36:36,707 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:36:36,708 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:36:36,708 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:36:36,709 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:36:36,709 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 20:37:03,312 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:37:03,312 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:37:03,312 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:37:03,312 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:37:03,312 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:37:03,312 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:37:03,312 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:37:03,312 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:37:03,312 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:37:03,312 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:37:03,373 - INFO - Calculator started
+2025-02-28 20:37:03,373 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:37:03,373 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:37:03,373 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:37:03,373 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:37:03,373 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:37:05,858 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:37:05,858 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:37:05,858 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:37:05,858 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:37:05,858 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:37:05,859 - INFO - Calculator started
+2025-02-28 20:37:05,859 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:37:05,859 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:37:05,859 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:37:05,859 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:37:05,859 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:37:05,881 - DEBUG - Test debug message
+2025-02-28 20:37:05,882 - INFO - Test info message
+2025-02-28 20:37:05,882 - ERROR - Test error message
+2025-02-28 20:37:05,905 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:37:05,906 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:37:05,907 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:37:05,907 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:37:05,907 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:37:05,907 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:37:05,907 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:37:05,908 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:37:05,908 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:37:05,909 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:37:05,909 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:37:05,910 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:37:05,910 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 20:37:50,077 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:37:50,077 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:37:50,077 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:37:50,077 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:37:50,077 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:37:50,077 - INFO - Calculator started
+2025-02-28 20:37:50,078 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:37:50,078 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:37:50,078 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:37:50,078 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:37:50,078 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:43:41,956 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:43:41,956 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:43:41,956 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:43:41,956 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:43:41,956 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:43:41,956 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:43:41,956 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:43:41,956 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:43:41,956 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:43:41,956 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:43:41,988 - INFO - Calculator started
+2025-02-28 20:43:41,988 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:43:41,988 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:43:41,988 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:43:41,988 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:43:41,988 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:43:42,027 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:43:42,027 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:43:42,027 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:43:42,027 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:43:42,027 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:43:42,027 - INFO - Calculator started
+2025-02-28 20:43:42,027 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:43:42,027 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:43:42,027 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:43:42,027 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:43:42,027 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:43:42,036 - DEBUG - Test debug message
+2025-02-28 20:43:42,037 - INFO - Test info message
+2025-02-28 20:43:42,037 - ERROR - Test error message
+2025-02-28 20:43:42,047 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:43:42,048 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:43:42,049 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:43:42,049 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:43:42,049 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:43:42,049 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:43:42,049 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:45:12,520 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:45:12,521 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:45:12,521 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:45:12,521 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:45:12,521 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:45:12,521 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:45:12,521 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:45:12,521 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:45:12,521 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:45:12,521 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:45:12,579 - INFO - Calculator started
+2025-02-28 20:45:12,579 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:45:12,579 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:45:12,579 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:45:12,579 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:45:12,579 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:45:15,087 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:45:15,087 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:45:15,087 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:45:15,087 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:45:15,087 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:45:15,087 - INFO - Calculator started
+2025-02-28 20:45:15,087 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:45:15,087 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:45:15,087 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:45:15,087 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:45:15,087 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:45:15,110 - DEBUG - Test debug message
+2025-02-28 20:45:15,110 - INFO - Test info message
+2025-02-28 20:45:15,111 - ERROR - Test error message
+2025-02-28 20:45:15,134 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:45:15,135 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:45:15,136 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:45:15,137 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:45:15,137 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:45:15,137 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:45:15,137 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:48:47,938 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:48:47,938 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:48:47,938 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:48:47,938 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:48:47,939 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:48:47,939 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:48:47,939 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:48:47,939 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:48:47,939 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:48:47,939 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:48:47,996 - INFO - Calculator started
+2025-02-28 20:48:47,996 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:48:47,996 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:48:47,996 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:48:47,997 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:48:47,997 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:48:50,457 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:48:50,457 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:48:50,457 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:48:50,458 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:48:50,458 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:48:50,458 - INFO - Calculator started
+2025-02-28 20:48:50,458 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:48:50,458 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:48:50,458 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:48:50,458 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:48:50,458 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:48:50,480 - DEBUG - Test debug message
+2025-02-28 20:48:50,481 - INFO - Test info message
+2025-02-28 20:48:50,482 - ERROR - Test error message
+2025-02-28 20:48:50,504 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:48:50,506 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:48:50,507 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:48:50,507 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:48:50,507 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:48:50,507 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:48:50,507 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:50:36,132 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:50:36,132 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:50:36,132 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:50:36,132 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:50:36,132 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:50:36,132 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:50:36,132 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:50:36,132 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:50:36,132 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:50:36,132 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:50:36,189 - INFO - Calculator started
+2025-02-28 20:50:36,189 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:50:36,189 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:50:36,189 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:50:36,189 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:50:36,190 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:50:38,653 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:50:38,654 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:50:38,654 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:50:38,654 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:50:38,654 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:50:38,654 - INFO - Calculator started
+2025-02-28 20:50:38,654 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:50:38,654 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:50:38,654 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:50:38,654 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:50:38,654 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:50:38,676 - DEBUG - Test debug message
+2025-02-28 20:50:38,677 - INFO - Test info message
+2025-02-28 20:50:38,678 - ERROR - Test error message
+2025-02-28 20:50:38,701 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:50:38,702 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:50:38,703 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:50:38,703 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:50:38,703 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:50:38,703 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:50:38,703 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:50:38,704 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:50:38,704 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:50:38,706 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:50:38,706 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:50:38,707 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:50:38,707 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 20:52:12,379 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:52:12,380 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:52:12,380 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:52:12,380 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:52:12,380 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:52:12,380 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:52:12,380 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:52:12,380 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:52:12,380 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:52:12,380 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:52:12,437 - INFO - Calculator started
+2025-02-28 20:52:12,437 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:52:12,437 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:52:12,437 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:52:12,437 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:52:12,437 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:52:14,940 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:52:14,940 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:52:14,940 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:52:14,940 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:52:14,940 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:52:14,940 - INFO - Calculator started
+2025-02-28 20:52:14,941 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:52:14,941 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:52:14,941 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:52:14,941 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:52:14,941 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:52:14,963 - DEBUG - Test debug message
+2025-02-28 20:52:14,964 - INFO - Test info message
+2025-02-28 20:52:14,964 - ERROR - Test error message
+2025-02-28 20:52:14,987 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:52:14,988 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:52:14,989 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:52:14,989 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:52:14,989 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:52:14,989 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:52:14,989 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:52:14,990 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:52:14,990 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:52:14,991 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:52:14,991 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:52:14,992 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:52:14,992 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 20:52:43,696 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:52:43,697 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:52:43,697 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:52:43,697 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:52:43,697 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:52:43,697 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:52:43,697 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:52:43,697 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:52:43,697 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:52:43,697 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:52:43,753 - INFO - Calculator started
+2025-02-28 20:52:43,753 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:52:43,753 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:52:43,753 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:52:43,753 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:52:43,753 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:52:46,193 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:52:46,193 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:52:46,193 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:52:46,193 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:52:46,193 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:52:46,193 - INFO - Calculator started
+2025-02-28 20:52:46,193 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:52:46,193 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:52:46,193 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:52:46,193 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:52:46,193 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:52:46,215 - DEBUG - Test debug message
+2025-02-28 20:52:46,216 - INFO - Test info message
+2025-02-28 20:52:46,216 - ERROR - Test error message
+2025-02-28 20:52:46,239 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:52:46,240 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:52:46,241 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:52:46,241 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:52:46,241 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:52:46,241 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:52:46,241 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:52:46,242 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:52:46,243 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:52:46,244 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:52:46,244 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:52:46,244 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:52:46,244 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 20:56:52,183 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:56:52,184 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:56:52,184 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:56:52,184 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:56:52,184 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:56:52,184 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:56:52,185 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:56:52,185 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:56:52,185 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:56:52,185 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:56:52,254 - INFO - Calculator started
+2025-02-28 20:56:52,255 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:56:52,255 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:56:52,255 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:56:52,255 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:56:52,255 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:56:54,666 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:56:54,667 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:56:54,667 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:56:54,667 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:56:54,667 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:56:54,667 - INFO - Calculator started
+2025-02-28 20:56:54,667 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 20:56:54,667 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 20:56:54,667 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 20:56:54,667 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 20:56:54,667 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 20:56:54,730 - DEBUG - Test debug message
+2025-02-28 20:56:54,731 - INFO - Test info message
+2025-02-28 20:56:54,731 - ERROR - Test error message
+2025-02-28 20:56:54,754 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 20:56:54,755 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 20:56:54,756 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 20:56:54,756 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 20:56:54,756 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 20:56:54,756 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 20:56:54,756 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 20:56:54,757 - DEBUG - Attempting to load plugin: addition
+2025-02-28 20:56:54,757 - INFO - Successfully loaded plugin: addition
+2025-02-28 20:56:54,758 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 20:56:54,758 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 20:56:54,759 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 20:56:54,759 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:02:44,694 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:02:44,694 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:02:44,694 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:02:44,694 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:02:44,695 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:02:44,713 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:02:44,713 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:02:44,713 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:02:44,713 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:02:44,713 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:02:44,761 - INFO - Calculator started
+2025-02-28 21:02:44,761 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:02:44,761 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:02:44,761 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:02:44,761 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:02:44,761 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:02:47,274 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:02:47,274 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:02:47,274 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:02:47,275 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:02:47,275 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:02:47,275 - INFO - Calculator started
+2025-02-28 21:02:47,275 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:02:47,275 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:02:47,275 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:02:47,275 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:02:47,275 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:02:47,336 - DEBUG - Test debug message
+2025-02-28 21:02:47,336 - INFO - Test info message
+2025-02-28 21:02:47,337 - ERROR - Test error message
+2025-02-28 21:02:47,359 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:02:47,360 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:02:47,362 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:02:47,363 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:02:47,363 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:02:47,363 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:02:47,363 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:02:47,364 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:02:47,364 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:02:47,365 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:02:47,365 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:02:47,366 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:02:47,366 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:04:51,400 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:04:51,401 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:04:51,401 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:04:51,401 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:04:51,401 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:04:51,422 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:04:51,422 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:04:51,422 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:04:51,422 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:04:51,422 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:05:21,236 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:05:21,236 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:05:21,236 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:05:21,236 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:05:21,236 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:05:21,249 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:05:21,249 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:05:21,249 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:05:21,249 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:05:21,249 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:06:29,425 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:06:29,425 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:06:29,425 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:06:29,426 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:06:29,426 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:06:29,446 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:06:29,446 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:06:29,446 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:06:29,446 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:06:29,446 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:08:33,283 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:08:33,283 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:08:33,283 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:08:33,283 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:08:33,283 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:08:33,303 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:08:33,303 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:08:33,304 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:08:33,304 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:08:33,304 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:08:33,356 - INFO - Calculator started
+2025-02-28 21:08:33,356 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:08:33,356 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:08:33,356 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:08:33,356 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:08:33,356 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:08:35,929 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:08:35,930 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:08:35,930 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:08:35,930 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:08:35,930 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:08:35,930 - INFO - Calculator started
+2025-02-28 21:08:35,930 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:08:35,930 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:08:35,930 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:08:35,930 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:08:35,930 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:08:35,959 - DEBUG - Test debug message
+2025-02-28 21:08:35,960 - INFO - Test info message
+2025-02-28 21:08:35,960 - ERROR - Test error message
+2025-02-28 21:08:35,983 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:08:35,985 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:08:35,986 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:08:35,986 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:08:35,986 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:08:35,986 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:08:35,986 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:08:35,987 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:08:35,987 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:08:35,988 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:08:35,988 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:08:35,989 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:08:35,989 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:09:35,036 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:09:35,036 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:09:35,036 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:09:35,036 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:09:35,036 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:09:35,048 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:09:35,048 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:09:35,048 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:09:35,048 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:09:35,048 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:09:35,092 - INFO - Calculator started
+2025-02-28 21:09:35,092 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:09:35,092 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:09:35,092 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:09:35,092 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:09:35,092 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:09:37,625 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:09:37,625 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:09:37,625 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:09:37,625 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:09:37,625 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:09:37,626 - INFO - Calculator started
+2025-02-28 21:09:37,626 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:09:37,626 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:09:37,626 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:09:37,626 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:09:37,626 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:09:37,656 - DEBUG - Test debug message
+2025-02-28 21:09:37,656 - INFO - Test info message
+2025-02-28 21:09:37,657 - ERROR - Test error message
+2025-02-28 21:09:37,680 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:09:37,681 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:09:37,682 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:09:37,682 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:09:37,682 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:09:37,682 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:09:37,682 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:09:37,683 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:09:37,683 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:09:37,684 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:09:37,684 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:09:37,685 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:09:37,685 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:10:42,804 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:10:42,805 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:10:42,805 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:10:42,805 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:10:42,805 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:10:42,824 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:10:42,824 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:10:42,824 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:10:42,824 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:10:42,824 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:10:42,874 - INFO - Calculator started
+2025-02-28 21:10:42,874 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:10:42,874 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:10:42,874 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:10:42,874 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:10:42,874 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:10:45,459 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:10:45,459 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:10:45,459 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:10:45,460 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:10:45,460 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:10:45,460 - INFO - Calculator started
+2025-02-28 21:10:45,460 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:10:45,460 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:10:45,460 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:10:45,460 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:10:45,460 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:10:45,489 - DEBUG - Test debug message
+2025-02-28 21:10:45,489 - INFO - Test info message
+2025-02-28 21:10:45,490 - ERROR - Test error message
+2025-02-28 21:10:45,513 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:10:45,514 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:10:45,515 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:10:45,515 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:10:45,515 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:10:45,515 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:10:45,515 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:10:45,517 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:10:45,517 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:10:45,518 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:10:45,518 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:10:45,519 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:10:45,519 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:12:27,107 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:12:27,107 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:12:27,107 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:12:27,107 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:12:27,107 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:12:27,126 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:12:27,127 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:12:27,127 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:12:27,127 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:12:27,127 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:12:27,175 - INFO - Calculator started
+2025-02-28 21:12:27,175 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:12:27,176 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:12:27,176 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:12:27,176 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:12:27,176 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:12:29,743 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:12:29,743 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:12:29,744 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:12:29,744 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:12:29,744 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:12:29,744 - INFO - Calculator started
+2025-02-28 21:12:29,744 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:12:29,744 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:12:29,744 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:12:29,744 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:12:29,744 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:12:29,773 - DEBUG - Test debug message
+2025-02-28 21:12:29,774 - INFO - Test info message
+2025-02-28 21:12:29,774 - ERROR - Test error message
+2025-02-28 21:12:29,797 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:12:29,798 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:12:29,799 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:12:29,799 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:12:29,799 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:12:29,800 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:12:29,800 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:12:29,800 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:12:29,800 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:12:29,801 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:12:29,801 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:12:29,802 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:12:29,802 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:13:32,887 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:13:32,887 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:13:32,887 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:13:32,887 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:13:32,887 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:13:32,907 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:13:32,908 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:13:32,908 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:13:32,908 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:13:32,908 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:13:32,959 - INFO - Calculator started
+2025-02-28 21:13:32,960 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:13:32,960 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:13:32,960 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:13:32,960 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:13:32,960 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:13:35,477 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:13:35,477 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:13:35,477 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:13:35,477 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:13:35,477 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:13:35,477 - INFO - Calculator started
+2025-02-28 21:13:35,478 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:13:35,478 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:13:35,478 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:13:35,478 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:13:35,478 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:13:35,505 - DEBUG - Test debug message
+2025-02-28 21:13:35,506 - INFO - Test info message
+2025-02-28 21:13:35,507 - ERROR - Test error message
+2025-02-28 21:13:35,529 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:13:35,530 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:13:35,531 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:13:35,531 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:13:35,531 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:13:35,531 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:13:35,531 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:13:35,532 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:13:35,532 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:13:35,533 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:13:35,533 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:13:35,534 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:13:35,534 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:15:36,111 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:15:36,111 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:15:36,111 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:15:36,111 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:15:36,111 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:15:36,131 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:15:36,131 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:15:36,131 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:15:36,131 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:15:36,131 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:15:36,180 - INFO - Calculator started
+2025-02-28 21:15:36,180 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:15:36,180 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:15:36,180 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:15:36,180 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:15:36,180 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:15:38,693 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:15:38,693 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:15:38,693 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:15:38,694 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:15:38,694 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:15:38,694 - INFO - Calculator started
+2025-02-28 21:15:38,694 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:15:38,694 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:15:38,694 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:15:38,694 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:15:38,694 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:15:38,723 - DEBUG - Test debug message
+2025-02-28 21:15:38,723 - INFO - Test info message
+2025-02-28 21:15:38,724 - ERROR - Test error message
+2025-02-28 21:15:38,746 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:15:38,747 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:15:38,749 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:15:38,749 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:15:38,749 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:15:38,749 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:15:38,749 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:15:38,750 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:15:38,750 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:15:38,751 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:15:38,751 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:15:38,752 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:15:38,752 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:18:57,426 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:18:57,427 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:18:57,427 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:18:57,427 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:18:57,427 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:18:57,445 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:18:57,445 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:18:57,445 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:18:57,445 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:18:57,446 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:18:57,493 - INFO - Calculator started
+2025-02-28 21:18:57,494 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:18:57,494 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:18:57,494 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:18:57,494 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:18:57,494 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:19:00,015 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:19:00,015 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:19:00,015 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:19:00,016 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:19:00,016 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:19:00,016 - INFO - Calculator started
+2025-02-28 21:19:00,016 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:19:00,016 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:19:00,016 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:19:00,016 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:19:00,016 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:19:00,044 - DEBUG - Test debug message
+2025-02-28 21:19:00,045 - INFO - Test info message
+2025-02-28 21:19:00,046 - ERROR - Test error message
+2025-02-28 21:19:00,067 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:19:00,068 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:19:00,070 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:19:00,070 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:19:00,070 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:19:00,070 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:19:00,070 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:19:00,071 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:19:00,071 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:19:00,072 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:19:00,072 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:19:00,073 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:19:00,073 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:23:51,235 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:23:51,236 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:23:51,236 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:23:51,236 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:23:51,236 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:23:51,256 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:23:51,256 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:23:51,256 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:23:51,256 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:23:51,256 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:23:51,305 - INFO - Calculator started
+2025-02-28 21:23:51,305 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:23:51,305 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:23:51,305 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:23:51,305 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:23:51,305 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:23:53,791 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:23:53,791 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:23:53,791 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:23:53,791 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:23:53,791 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:23:53,791 - INFO - Calculator started
+2025-02-28 21:23:53,791 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:23:53,792 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:23:53,792 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:23:53,792 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:23:53,792 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:23:53,820 - DEBUG - Test debug message
+2025-02-28 21:23:53,821 - INFO - Test info message
+2025-02-28 21:23:53,821 - ERROR - Test error message
+2025-02-28 21:23:53,844 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:23:53,845 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:23:53,846 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:23:53,846 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:23:53,846 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:23:53,847 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:23:53,847 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:23:53,848 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:23:53,848 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:23:53,849 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:23:53,849 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:23:53,850 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:23:53,850 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:25:37,678 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:25:37,678 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:25:37,678 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:25:37,678 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:25:37,679 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:25:37,679 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:25:37,679 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:25:37,679 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:25:37,679 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:25:37,679 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:25:37,735 - INFO - Calculator started
+2025-02-28 21:25:37,735 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:25:37,735 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:25:37,735 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:25:37,735 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:25:37,735 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:25:40,080 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:25:40,080 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:25:40,080 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:25:40,080 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:25:40,080 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:25:40,081 - INFO - Calculator started
+2025-02-28 21:25:40,081 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:25:40,081 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:25:40,081 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:25:40,081 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:25:40,081 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:25:40,103 - DEBUG - Test debug message
+2025-02-28 21:25:40,104 - INFO - Test info message
+2025-02-28 21:25:40,105 - ERROR - Test error message
+2025-02-28 21:25:40,127 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:25:40,128 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:25:40,130 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:25:40,130 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:25:40,130 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:25:40,130 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:25:40,130 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:25:40,131 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:25:40,131 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:25:40,132 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:25:40,132 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:25:40,132 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:25:40,133 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:30:27,112 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:30:27,112 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:30:27,112 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:30:27,112 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:30:27,113 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:30:27,113 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:30:27,113 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:30:27,113 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:30:27,113 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:30:27,113 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:30:27,184 - INFO - Calculator started
+2025-02-28 21:30:27,184 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:30:27,184 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:30:27,184 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:30:27,184 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:30:27,184 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:30:29,568 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:30:29,568 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:30:29,568 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:30:29,568 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:30:29,568 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:30:29,569 - INFO - Calculator started
+2025-02-28 21:30:29,569 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:30:29,569 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:30:29,569 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:30:29,569 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:30:29,569 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:30:29,632 - DEBUG - Test debug message
+2025-02-28 21:30:29,632 - INFO - Test info message
+2025-02-28 21:30:29,633 - ERROR - Test error message
+2025-02-28 21:30:29,661 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:30:29,666 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:30:29,672 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:30:29,672 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:30:29,673 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:30:29,673 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:30:29,673 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:30:29,675 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:30:29,675 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:30:29,676 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:30:29,676 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:30:29,679 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:30:29,680 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:32:17,353 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:32:17,353 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:32:17,353 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:32:17,353 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:32:17,353 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:32:17,353 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:32:17,354 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:32:17,354 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:32:17,354 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:32:17,354 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:32:17,425 - INFO - Calculator started
+2025-02-28 21:32:17,425 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:32:17,425 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:32:17,425 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:32:17,425 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:32:17,425 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:32:19,791 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:32:19,792 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:32:19,792 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:32:19,792 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:32:19,792 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:32:19,792 - INFO - Calculator started
+2025-02-28 21:32:19,792 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:32:19,792 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:32:19,792 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:32:19,792 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:32:19,792 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:32:19,852 - DEBUG - Test debug message
+2025-02-28 21:32:19,853 - INFO - Test info message
+2025-02-28 21:32:19,854 - ERROR - Test error message
+2025-02-28 21:32:19,876 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:32:19,880 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:32:19,886 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:32:19,887 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:32:19,888 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:32:19,888 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:32:19,888 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:32:19,893 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:32:19,894 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:32:19,896 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:32:19,896 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:32:19,897 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:32:19,898 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:35:29,969 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:35:29,970 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:35:29,970 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:35:29,970 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:35:29,970 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:35:29,970 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:35:29,970 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:35:29,970 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:35:29,970 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:35:29,970 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:35:30,039 - INFO - Calculator started
+2025-02-28 21:35:30,039 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:35:30,040 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:35:30,040 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:35:30,040 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:35:30,040 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:35:32,556 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:35:32,556 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:35:32,556 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:35:32,557 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:35:32,557 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:35:32,557 - INFO - Calculator started
+2025-02-28 21:35:32,557 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:35:32,557 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:35:32,557 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:35:32,557 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:35:32,557 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:35:32,618 - DEBUG - Test debug message
+2025-02-28 21:35:32,619 - INFO - Test info message
+2025-02-28 21:35:32,619 - ERROR - Test error message
+2025-02-28 21:35:32,642 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:35:32,643 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:35:32,644 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:35:32,644 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:35:32,645 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:35:32,645 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:35:32,645 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:35:32,646 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:35:32,647 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:35:32,649 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:35:32,649 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:35:32,649 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:35:32,649 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:39:08,988 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:39:08,988 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:39:08,988 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:39:08,989 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:39:08,989 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:39:08,989 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:39:08,989 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:39:08,989 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:39:08,989 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:39:08,989 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:39:09,061 - INFO - Calculator started
+2025-02-28 21:39:09,061 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:39:09,061 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:39:09,061 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:39:09,061 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:39:09,061 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:39:11,635 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:39:11,635 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:39:11,635 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:39:11,635 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:39:11,635 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:39:11,635 - INFO - Calculator started
+2025-02-28 21:39:11,635 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:39:11,635 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:39:11,636 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:39:11,636 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:39:11,636 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:39:11,696 - DEBUG - Test debug message
+2025-02-28 21:39:11,697 - INFO - Test info message
+2025-02-28 21:39:11,698 - ERROR - Test error message
+2025-02-28 21:39:11,723 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:39:11,725 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:39:11,726 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:39:11,726 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:39:11,726 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:39:11,726 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:39:11,726 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:39:11,727 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:39:11,727 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:39:11,728 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:39:11,728 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:39:11,729 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:39:11,729 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:39:47,373 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:39:47,373 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:39:47,373 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:39:47,373 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:39:47,373 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:39:47,373 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:39:47,373 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:39:47,373 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:39:47,373 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:39:47,373 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:39:47,429 - INFO - Calculator started
+2025-02-28 21:39:47,430 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:39:47,430 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:39:47,430 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:39:47,430 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:39:47,430 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:39:49,942 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:39:49,942 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:39:49,942 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:39:49,942 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:39:49,942 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:39:49,942 - INFO - Calculator started
+2025-02-28 21:39:49,942 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:39:49,942 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:39:49,942 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:39:49,942 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:39:49,942 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:39:50,005 - DEBUG - Test debug message
+2025-02-28 21:39:50,006 - INFO - Test info message
+2025-02-28 21:39:50,007 - ERROR - Test error message
+2025-02-28 21:39:50,030 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:39:50,031 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:39:50,032 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:39:50,032 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:39:50,032 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:39:50,032 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:39:50,032 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:39:50,033 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:39:50,034 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:39:50,035 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:39:50,035 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:39:50,036 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:39:50,036 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found
+2025-02-28 21:40:38,393 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:40:38,393 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:40:38,393 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:40:38,393 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:40:38,393 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:40:38,393 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:40:38,393 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:40:38,393 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:40:38,393 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:40:38,393 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:40:38,458 - INFO - Calculator started
+2025-02-28 21:40:38,459 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:40:38,459 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:40:38,459 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:40:38,459 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:40:38,459 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:40:40,824 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:40:40,824 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:40:40,824 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:40:40,824 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:40:40,824 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:40:40,824 - INFO - Calculator started
+2025-02-28 21:40:40,824 - DEBUG - Skipping already loaded plugin: operations.add
+2025-02-28 21:40:40,824 - DEBUG - Skipping already loaded plugin: operations.divide
+2025-02-28 21:40:40,824 - DEBUG - Skipping already loaded plugin: operations.multiply
+2025-02-28 21:40:40,824 - DEBUG - Skipping already loaded plugin: operations.operation_mapping
+2025-02-28 21:40:40,824 - DEBUG - Skipping already loaded plugin: operations.subtract
+2025-02-28 21:40:40,847 - DEBUG - Test debug message
+2025-02-28 21:40:40,847 - INFO - Test info message
+2025-02-28 21:40:40,848 - ERROR - Test error message
+2025-02-28 21:40:40,870 - ERROR - Failed to import fake_module: Mocked failure
+2025-02-28 21:40:40,872 - INFO - Successfully loaded plugin: operations.fake_op
+2025-02-28 21:40:40,873 - INFO - Successfully loaded plugin: operations.add
+2025-02-28 21:40:40,873 - INFO - Successfully loaded plugin: operations.divide
+2025-02-28 21:40:40,873 - INFO - Successfully loaded plugin: operations.multiply
+2025-02-28 21:40:40,873 - INFO - Successfully loaded plugin: operations.operation_mapping
+2025-02-28 21:40:40,873 - INFO - Successfully loaded plugin: operations.subtract
+2025-02-28 21:40:40,874 - DEBUG - Attempting to load plugin: addition
+2025-02-28 21:40:40,874 - INFO - Successfully loaded plugin: addition
+2025-02-28 21:40:40,875 - DEBUG - Attempting to load plugin: unknown_plugin
+2025-02-28 21:40:40,875 - ERROR - Failed to load plugin: unknown_plugin - Plugin not found
+2025-02-28 21:40:40,876 - DEBUG - Attempting to load plugin: invalid_plugin
+2025-02-28 21:40:40,876 - ERROR - Failed to load plugin: invalid_plugin - Plugin not found

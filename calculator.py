@@ -5,6 +5,9 @@ from history import History
 from menu import show_menu
 from decimal import Decimal, InvalidOperation
 import sys
+from log_config import logger
+
+logger.info("Calculator started")
 
 plugin_loader.load_plugins()
 
